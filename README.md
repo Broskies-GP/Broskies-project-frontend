@@ -22,10 +22,14 @@ Frontend part of the app, built with **React**, **TypeScript** and **Vite**.
 After cloning the repository for the first time, install the dependencies:
 
 ```bash
-npm i --legacy-peer-deps
+npm i
 ```
 
-> The `--legacy-peer-deps` flag is required. Do not skip it.
+If you see a list of errors, use the following command:
+
+```bash
+npm i --legacy-peer-deps
+```
 
 ---
 
